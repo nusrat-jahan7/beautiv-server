@@ -26,7 +26,7 @@ async function run() {
   const Cart = client.db("beautiv-db").collection("cart");
 
   try {
-    // get brands
+    // get all the brands
     app.get("/brands", async (req, res) => {
       const data = Brands.find({});
       const result = await data.toArray();
