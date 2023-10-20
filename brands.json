@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Luxe Beauty",
+    "logo": "https://i.ibb.co/2czp093/luxe-beauty.png",
+    "slug": "luxe_beauty"
+  },
+  {
+    "name": "L'Oreal",
+    "logo": "https://i.ibb.co/zRFTTV2/loreal.jpg",
+    "slug": "loreal"
+  },
+  {
+    "name": "Estée Lauder",
+    "logo": "https://i.ibb.co/1ZC2CzX/estee-lauder.jpg",
+    "slug": "estee_lauder"
+  },
+  {
+    "name": "MAC Cosmetics",
+    "logo": "https://i.ibb.co/S3t0nsn/mac-cosmetics.jpg",
+    "slug": "mac_cosmetics"
+  },
+  {
+    "name": "Maybelline",
+    "logo": "https://i.ibb.co/PFDGYpD/maybelline.jpg",
+    "slug": "maybelline"
+  },
+  {
+    "name": "NARS Cosmetics",
+    "logo": "https://i.ibb.co/jb326cf/nars-cosmetics.jpg",
+    "slug": "nars_cosmetics"
+  },
+  {
+    "name": "Revlon",
+    "logo": "https://i.ibb.co/gJNZXzj/revlon.jpg",
+    "slug": "revlon"
+  },
+  {
+    "name": "Clinique",
+    "logo": "https://i.ibb.co/X5jNCGg/clinique.jpg",
+    "slug": "clinique"
+  }
+]
