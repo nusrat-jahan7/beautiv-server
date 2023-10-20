@@ -157,7 +157,7 @@ async function run() {
 
     await client.connect();
     await client.db("admin").command({ ping: 1 });
-    console.log("Database connected successfully!");
+    console.log("Mongodb Database connected successfully!");
   } finally {
   }
 }
