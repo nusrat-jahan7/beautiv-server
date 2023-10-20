@@ -49,7 +49,7 @@ async function run() {
       });
     });
 
-    // add new product
+    // post products
     app.post("/products", async (req, res) => {
       const data = req.body;
       const result = await Products.insertOne(data);
@@ -60,7 +60,7 @@ async function run() {
       });
     });
 
-    // get a product
+    // get products by id
     app.get("/products/:slug/:id", async (req, res) => {
       const { id } = req.params;
       const result = await Products.findOne({ _id: new ObjectId(id) });
