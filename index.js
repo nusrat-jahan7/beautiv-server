@@ -71,7 +71,7 @@ async function run() {
       });
     });
 
-    // edit a product
+    // edit any products
     app.patch("/products/:id", async (req, res) => {
       const { id } = req.params;
       const updatedData = req.body;
@@ -88,7 +88,7 @@ async function run() {
       });
     });
 
-    // delete a product
+    // delete any products
     app.delete("/products/:id", async (req, res) => {
       const { id } = req.params;
       const filter = { _id: new ObjectId(id) };
