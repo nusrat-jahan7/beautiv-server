@@ -37,7 +37,7 @@ async function run() {
       });
     });
 
-    // get products by brand
+    // get products by brands slug
     app.get("/products/:slug", async (req, res) => {
       const { slug } = req.params;
       const data = Products.find({ brand_slug: slug });
